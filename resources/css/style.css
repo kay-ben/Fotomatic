@@ -26,6 +26,8 @@ html {
 
 .image-container img {
   display: block;
+  height: 100%;
+  width: 100%;
 }
 
 @media only screen and (max-width: 760px) {
@@ -235,9 +237,11 @@ header .mobile {
 
 .feature h2 {
   padding-bottom: .5rem;
+  padding-top: 2.5rem;
   font-size: 2.25rem;
   font-weight: bold;
   color: #4a4a4a;
+  line-height: 1.2;
 }
 
 .feature h3 {
